@@ -1,0 +1,16 @@
+table{
+    background-color: rgb(221, 237, 252);
+    margin: 200px;
+}
+
+#cursos{
+    background-color: gold;
+    text-align: center;
+    font-size: 24px;
+}
+
+.dias{
+    background-color: grey;
+    color:white;
+    font-size: 24px;
+}

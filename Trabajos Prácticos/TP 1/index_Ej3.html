@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro - Mi web</title>
+    <style>
+        ul{
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+    <form action="">
+        <table>
+            <tr>
+                <td>Nombre</td>
+                <td colspan="3"><input type="text" name="firstname" id="firstname" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td>Apellido</td>
+                <td colspan="3"><input type="text" name="lastname" id="lastname"  maxlength="50"></td>
+            </tr>
+            <tr>
+                <td>Sexo:</td>
+                <td>
+                    <input type="radio" name="sexo" id="hombre">
+                    <label for="hombre">Hombre</label>
+                </td>
+                <td>
+                    <input type="radio" name="sexo" id="mujer">
+                    <label for="mujer">Mujer</label>
+                </td>
+            </tr>
+            <tr></tr>
+                <td>Correo</td>
+                <td colspan="3"><input type="text" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td>Población</td>
+                <td colspan="3">
+                    <select name="poblacion" id="poblacion">
+                        <option value="">Seleccione</option>
+                        <option value="Alicante">Alicante</option>
+                        <option value="Madrid">Madrid</option>
+                        <option value="Sevilla">Sevilla</option>
+                        <option value="Valencia">Valencia</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">Descripción:</td>
+                <td colspan="2">
+                    <textarea name="comentarios" id="comentarios" rows="5" cols="20"></textarea>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr></tr>
+                <td colspan="2">
+                    <input type="checkbox" name="informacion" id="informacion" checked='checked'>
+                    <label for="informacion">Deseo recibir informacón sobre novedades y ofertas</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="condiciones" id="condiciones">
+                    <label for="condiciones">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>

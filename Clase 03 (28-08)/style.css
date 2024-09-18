@@ -1,0 +1,31 @@
+img{
+    border:5px navy solid;
+    border-radius: 20px;
+}
+
+h1{
+    /* 1 rem = 16 px */
+    font-size: 3rem;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+tr, td{
+    border: 3px green solid;
+}
+
+thead{
+    background-color: darkgreen;
+    color: rgb(215, 241, 170);
+}
+
+tbody{
+    background-color: lawngreen;
+}
+
+body{
+    background-image: url(imagenes/patron.jpg);
+    background-attachment: fixed;
+}
